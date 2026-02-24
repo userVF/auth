@@ -1,0 +1,5 @@
+section.profile {
+  grid-row: main;
+  grid-column: small;
+  place-self: center
+}

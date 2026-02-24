@@ -1,0 +1,30 @@
+{
+  "name": "auth",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open html/dev-index.html",
+    "build:server": "vite build --outDir build/server --ssr client/app/entry-server.js",
+    "build:client": "vite build --outDir build/client",
+    "build": "npm run build:server && npm run build:client"
+  },
+  "dependencies": {
+    "@fastify/autoload": "^6.3.1",
+    "@fastify/cookie": "^11.0.2",
+    "@fastify/formbody": "^8.0.2",
+    "@types/node": "^25.2.0",
+    "ajv-errors": "^3.0.0",
+    "close-with-grace": "^2.3.0",
+    "fastify": "^5.6.2",
+    "fastify-plugin": "^5.1.0",
+    "pino-pretty": "^13.1.3",
+    "vue": "^3.5.26"
+  },
+  "devDependencies": {
+    "@fastify/static": "^9.0.0",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "vite": "^7.3.0"
+  }
+}

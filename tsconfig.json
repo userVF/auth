@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+     "noEmit": true, // если не нужен .js, только проверка
+     "target": "esnext",
+     "module": "nodenext",
+     "rewriteRelativeImportExtensions": true,
+     "erasableSyntaxOnly": true,
+     "verbatimModuleSyntax": true
+  }
+} 

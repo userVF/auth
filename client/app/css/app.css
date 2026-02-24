@@ -1,0 +1,73 @@
+@import 'reset.css';
+@import '../../header/header.css';
+@import '../../pages/auth/login.css';
+@import '../../pages/private/profile/profile.css';
+@import '../../pages/public/home/home.css';
+@import '../../pages/public/about/about.css';
+@import '../../pages/public/contacts/contacts.css';
+@import '../../pages/public/not-found/not-found.css';
+@import '../../footer/footer.css';
+
+:root {
+  --padding-inline: .5rem;
+  --small-max-width: 1300px; 
+  --middle-max-width: 1600px;
+  --middle-size: calc(
+    (var(--middle-max-width) - var(--small-max-width)) / 2
+  );  
+}
+
+#app {
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: 
+    [head-start] auto [head-end main-start] 1fr [main-end foot-start] auto [foot-end];
+  grid-template-columns:
+    [large-start] 
+    minmax(var(--padding-inline), 1fr)
+      [middle-start] 
+      minmax(0, var(--middle-size))
+        [small-start] 
+        min(
+          100% - (var(--padding-inline) * 2),
+          var(--small-max-width)
+        )
+        [small-end]
+      minmax(0, var(--middle-size)) 
+      [middle-end]
+    minmax(var(--padding-inline), 1fr) 
+    [large-end];  
+}
+
+@media (min-width: 768px) {
+ :root {
+    --padding-inline: 1rem;
+  }
+}
+
+.header-contaiter {
+  grid-row: head;
+  grid-column: large;
+  display: grid;
+  grid-template-columns: subgrid;
+  padding: 10px 0;
+  border-bottom: 1px solid #cecece;
+  background-color: white;
+}
+
+main {
+  grid-row: main;
+  grid-column: large;
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-template-columns: subgrid;
+}
+
+.footer-contaiter {
+  grid-row: foot;
+  grid-column: large;
+  display: grid;
+  grid-template-columns: subgrid;
+  padding: 5px 0;
+  border-top: 1px solid #cecece;
+}

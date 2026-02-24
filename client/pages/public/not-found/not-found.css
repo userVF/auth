@@ -1,0 +1,5 @@
+section.not-found {
+  grid-row: main;
+  grid-column: small;
+  place-self: center
+}

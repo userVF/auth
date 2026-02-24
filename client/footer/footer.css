@@ -1,0 +1,8 @@
+footer {
+  grid-column: middle;
+}
+
+footer div.text {
+  font-size: 12px;
+  color: #555;
+}

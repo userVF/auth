@@ -1,0 +1,61 @@
+.header-contaiter header {
+  grid-column: middle;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 40px;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: gray;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.header-contaiter header nav.page-links ul {
+  display: flex;
+  gap: 40px;
+}
+nav.page-links ul li a {
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+  text-decoration: underline;
+}
+nav.page-links ul li a:hover {
+  color: red;
+}
+nav.page-links ul li .active-link {
+  font-size: 16px;
+  color: #949494;
+}
+
+.header-contaiter header nav.lang-links ul {
+  display: flex;
+  gap: 12px;
+}
+nav.lang-links ul li a {
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+  text-decoration: underline;
+}
+nav.lang-links ul li a:hover {
+  color: red;
+}
+nav.lang-links ul li .active-link {
+  font-size: 14px;
+  color: #949494;
+}
+
+nav.login-links a {
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+  text-decoration: underline;
+}
+nav.login-links a:hover {
+  color: red;
+}

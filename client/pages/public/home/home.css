@@ -1,0 +1,5 @@
+section.home {
+  grid-row: main;
+  grid-column: small;
+  place-self: center
+}

@@ -1,0 +1,5 @@
+section.about {
+  grid-row: main;
+  grid-column: small;
+  place-self: center
+}

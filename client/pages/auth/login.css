@@ -1,0 +1,71 @@
+.login-form {
+  grid-row: main;
+  grid-column: small;
+  place-self: center;
+  width: 330px;
+}
+
+.login-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-form fieldset {
+  border: 1px solid #cecece;
+}
+
+.login-form .input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form .input-group .alert {
+  color: #d32f2f;
+  margin: 0;
+  font-size: 12px;
+}
+
+.login-form .button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-form .code-message-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.login-form .code-message-group p {
+  margin: 0;
+}
+.login-form .code-message-group .retry {
+  font-size: 13px;
+}
+
+.login-form .alert-container {
+  height: 12px;
+}
+.login-form .alert-container p {
+  margin: 0;
+  font-size: 12px;
+}
+.login-form .alert-container p.alert {
+  color: #d32f2f; 
+}
+
+.login-form .info-container {
+  height: 20px;
+}
+.login-form .info-container p {
+  margin: 0;
+  font-size: 12px;
+}
+.login-form .info-container p.error {
+  color: #d32f2f; 
+}
+
+.login-form .info-container p.sending {
+  color: #1976d2;
+}

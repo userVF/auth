@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dev</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:image/x-icon;base64,AA">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Description">    
+  </head>
+  <body>
+    <div id="app"></div>    
+    <script type="module">
+      import data from '/client/app/store/dev-data.js'
+      window.__INIT_STATE__ = data
+    </script>    
+    <script type="module" src="/client/app/entry-client.js"></script>
+  </body>
+</html>

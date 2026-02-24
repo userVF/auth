@@ -1,0 +1,1 @@
+export type I18n = Record<'get', (lang: string, items: string[]) => Record<string, string>>
