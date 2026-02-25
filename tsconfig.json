@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-     "noEmit": true, // если не нужен .js, только проверка
+     "noEmit": true,
      "target": "esnext",
      "module": "nodenext",
      "rewriteRelativeImportExtensions": true,
