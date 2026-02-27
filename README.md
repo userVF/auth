@@ -1,4 +1,5 @@
-Full-stack cookie-based, passwordless authentication. Includes IP rate limiting, per-identifier cooldown and attempt limiting. Preserves the user’s intended private route after login.
+Full-stack cookie-based, passwordless authentication. Includes IP rate limiting, per-identifier cooldown and attempt limiting. 
+Preserves the user’s intended private route after login.
 
 <img width="1058" height="595" alt="auth" src="https://github.com/user-attachments/assets/45edfbdd-af3f-4feb-b943-2ed3883d9510" />
 
