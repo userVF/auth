@@ -1,5 +1,6 @@
 Full-stack cookie-based, passwordless authentication. Includes IP rate limiting, per-identifier cooldown and attempt limiting. 
 Preserves the user’s intended private route after login.
+The template is SSR suitable for small/middle multilang project with using a few of dependencies.
 
 <img width="1058" height="595" alt="auth" src="https://github.com/user-attachments/assets/7b566596-4825-46f3-a31b-446232384d10" />
 

@@ -2,13 +2,9 @@ import fastify from 'fastify'
 import autoLoad from '@fastify/autoload'
 import { join } from 'node:path'
 
-// import fastifyPrintRoutes from 'fastify-print-routes'
-
 export async function build(opts = {}) {
 
   const app = fastify(opts)
-
-  // await app.register(fastifyPrintRoutes)
 
   app.register(autoLoad, {
     dir: join(import.meta.dirname, 'setup'),
