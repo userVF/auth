@@ -5,7 +5,7 @@ Preserves the user’s intended private route after login.
 
 
 ## Prerequisites
-- Node.js >= 22 (required for built-in type stripping)
+- Node.js >= 22 (required for built-in SQLite and type stripping)
 
 ## Code setup
 Install dependencies
