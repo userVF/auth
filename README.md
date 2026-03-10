@@ -34,7 +34,7 @@ http://localhost:3000
 ## Development
 Run application server
 ```bash
-node ./server/platform/app-server.js
+node --watch ./server/platform/app-server.js
 ```
 Run development server (in new terminal tab)
 ```bash

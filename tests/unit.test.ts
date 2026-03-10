@@ -140,7 +140,7 @@ test('Session', async () => {
       return Session.fromDbRow(dbRow)
     }
     async logout(sessionId: string, params: SessionParams): Promise<void> {
-      // no-op
+      // TODO
     }
   }
   const repo = new SessionRepo()
